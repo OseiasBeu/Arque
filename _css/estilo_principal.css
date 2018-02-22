@@ -1,0 +1,357 @@
+@charset "UTF-8";
+
+/*formatação do banner*/
+
+#banner {
+    display: block;
+    margin-left: -40px;
+}
+
+
+/*formatação do corpo [backgroundo do site]*/
+
+body {
+    font-family: arial, sans-serif;
+    background-image: url("../_imagens/fundo.jpg");
+    color: #ffcece;
+}
+
+
+/*Formatações genêricas*/
+
+h2 {
+    border-color:rgba(152, 84, 94, 0.3);
+    border-style: ridge;
+    background-color: rgba(152, 84, 94, 0.3);
+    padding: 2px;
+    text-indent: 5px;
+    font-family: symbol;
+}
+
+h2:hover {
+    font-family: georgia, sans-serif;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/*formatação do menu */
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    background-color: #79BD9A;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    margin-top: -20px;
+    margin-bottom:-5px;
+    margin-left: 235px;
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav li {
+   
+    float: left;
+    color: #fffafa;
+    font-family: helvetica;
+    font-size: 11pt;
+    text-align: center;
+    transition: bounce-in;
+}
+
+
+
+.button:hover{
+            transform: scale(1.1);
+            transition: all .6s ease;
+            border-radius: 5px;
+            border: 1px inset black;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+			background-color: rgba(121, 189, 154);
+            -webkit-transition:all 1s ease;
+            -moz-transition:all 1s ease;
+            -ms-transition:all 1s ease;
+        
+}
+	
+.button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+a#home{
+            transform: scale(1.1);
+            transition: all .6s ease;
+            border-radius: 5px;
+            border: 1px inset black;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+			background-color: rgba(121, 189, 154);
+            -webkit-transition:all 1s ease;
+            -moz-transition:all 1s ease;
+            -ms-transition:all 1s ease;
+        
+}
+
+/*Formatação das notas*/
+
+a.glossaryLink {
+    color: #00C9B4;
+    cursor: help;
+}
+
+.entry-content a, .entry-summary a, .comment-content a {
+    border-bottom-color: rgba(248,158,27,0.15);
+}
+a {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: initial;
+}
+        span.glossaryLink, a.glossaryLink {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    border-bottom: dotted 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: initial;
+}
+
+.entry-content a, .entry-summary a, .comment-content a {
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: initial;
+}
+
+        
+        a {
+    color: #1b95e0;
+}
+
+a, .wp-playlist-light .wp-playlist-playing, .wp-embed-comments a, .wp-embed-share-dialog-open, .wp-embed a {
+    color: rgba(248,158,27,0.75);
+}
+
+
+
+
+
+a {
+    cursor: pointer;
+}
+
+/*Formatação do cabeçalho principal*/
+
+header#cabecalho {
+    display: block;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: -1px;
+    margin-left: 0px;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#cabecalho h3,h4 {
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+#cabecalho h1 {
+    text-align: left;
+    font-size: 25pt;
+    font-family: comic;
+    margin-top: -50px;
+    background-color: none;
+    padding-left: 20px;
+}
+
+/*formatação do corpo principal [conteúdo]*/
+
+div#interface {
+    width: 1100px;
+    margin-top: -5px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 20px;
+}
+
+
+/*NÃO TERMINADO*/
+
+footer#rodape {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .6);
+    clear: both;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*NÃO TERMINADO*
+background:	#ff4500;
+  
+/*segundo corpo do site*/
+
+section#corpo_Gaby {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .6);
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+
+
+/*Formatação do segundo cabeçalho*/
+
+header#cabecalho2 {
+    margin-right: 200px;
+    margin-left: 200px;
+    background-image: url("../_imagens/coluna2.png");
+    padding: 15px;
+}
+
+header#cabecalho2 h1 {
+    margin-left: 165px;
+}
+
+header#cabecalho2 {
+    font-size: 15pt;
+    font-family: symbol, sans-serif;
+}
+
+header#cabecalho2:hover {
+    background-image: url("../_imagens/coluna1.png");
+    font-family: Georgia;
+    font-size: 15pt;
+}
+
+
+/*formatação das asides laterais esqueda e direita */
+
+aside#direita {
+    background-color: rgba(0, 0, 0, .6);
+    display: block;
+    float: right;
+    width: 525px;
+    height: 800px;
+    padding: 10px;
+    padding-bottom: 168px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+img#direita{
+    opacity: 0.5;
+    margin-left:150px;
+    border: 3px solid black;
+}
+img#direita:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    
+}
+
+section#esquerda {
+    background-color: rgba(0, 0, 0, .6);
+    text-indent: 30px;
+    display: block;
+    float: left;
+    width: 525px;
+    height: 959px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+img#esquerda{
+    margin-left:150px;
+    opacity: 0.5;
+    border: 3px solid black;
+}
+
+img#esquerda:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    border-radius: 5px;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    transition: all .5s ease-in-out;
+}
+/*formatação do artigo 1 */
+
+section#art1 {
+    background-color: rgba(0, 0, 0, .6);
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+/*formatação dos articles*/
+
+article#estrutura_principal h2{
+    width: 1070px; 
+}
+article#estrutura_principal p{
+width: 1070px;    
+}
+
+img#arqueologia_simb{
+    margin-left: 300px;
+}
+article {
+    text-align: center;
+    margin-right: 300px;
+    text-indent: 30px;
+}
+
+article p {
+    text-align: "center";
+    text-indent: 30px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+
+/*formatação das imagens*
+figure{
+	display: block;
+	float: right;
+	border: 2px solid black;
+	border-radius: 30px;
+	margin-left: 300px;
+
+}
+*/
